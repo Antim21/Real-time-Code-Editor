@@ -1,0 +1,230 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+  background-color: #282a36;
+}
+
+.formWrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.createInfo {
+  color: #000;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #000;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+btn-danger {
+  background: #7e2121;
+  color: #fff;
+}
+
+.joinBtn {
+  background: #4aee88;
+}
+
+.joinBtn :hover {
+  color: white;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.run-button {
+  background: #5227b6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  max-width: fit-content;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  top: 3%;
+  right: 1%;
+  z-index: 1;
+}
+
+.code-result-box {
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  background: rgb(1, 17, 20);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  z-index: 1;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.code-result-box::-webkit-scrollbar {
+  display: none;
+}
+
+.createNewBtn {
+  color: #13ca59;
+  text-decoration: none;
+  outline: none !important;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn :hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+footer a :hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #013e2f;
+  padding: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 96vh;
+  overflow: unset;
+}
+
+.connected-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: cyan;
+  margin-bottom: 20px;
+}
+
+.download-code-btn {
+  padding-left: 20px;
+  color: rgb(5, 152, 237);
+  margin-top: 5px;
+}
+
+.client {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.userName {
+  margin-left: 5px;
+}
+
+.utility-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editorWrap .Codemirror,
+.cm-s-dracula {
+  height: 100vh !important;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.HomePageFooter {
+  color: #fff;
+}
+
+.editorWrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  .aside {
+    display: none;
+  }
+
+  .editorWrap {
+    width: 100vw;
+  }
+  .run-button {
+    z-index: 1;
+  }
+}
