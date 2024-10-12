@@ -10,7 +10,7 @@ import MyCustomProvider from "./theme/theme";
 ReactDOM.render(
   <React.StrictMode>
     <MyCustomProvider>
-      <App />
+      <App/>
     </MyCustomProvider>
   </React.StrictMode>,
   document.getElementById("root"),
