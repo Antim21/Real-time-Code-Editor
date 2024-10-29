@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import MyCustomProvider from "./theme/theme";
+import MyCustomProvider from "./theme/theme"
 
 ReactDOM.render(
   <React.StrictMode>
