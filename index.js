@@ -7,6 +7,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import MyCustomProvider from "./theme/theme";
 
+
 ReactDOM.render(
   <React.StrictMode>
     <MyCustomProvider>
