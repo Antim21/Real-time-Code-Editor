@@ -7,7 +7,7 @@
 name: 'Dependency Review'
 on: [pull_request]
 
-permissions
+permissions:
   contents: read
 
 jobs:
