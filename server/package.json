@@ -1,6 +1,7 @@
 {
   "name": "codebuddyserver",
-  "version": "1.0.0",
+  "version": "1.0.0"
+  
   "description": "Relay server for codebuddy text editor",
   "main": "server.js",
   "scripts": {
