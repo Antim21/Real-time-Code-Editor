@@ -5,6 +5,7 @@ Integrated support for multiple programming languages with syntax highlighting a
 Implemented communication features to enhance team collaboration and productivity
 
 You can visit here
+
 https://codebuddytextedit.netlify.app/
 
 A web-based real-time collaborative code editor that allows multiple users to write, edit, and view code simultaneously. This project supports syntax highlighting for various programming languages, live updates across users, and an intuitive UI. It uses WebSockets for real-time communication, enabling seamless collaboration similar to platforms like Google Docs or VS Code Live Share.
