@@ -21,7 +21,7 @@ Code Sharing: Users can share code sessions with others using a unique session l
 Customizable Themes: Dark and light mode themes for a better coding experience.
 
 Live Preview: Displays output of code in real-time for supported languages.
-
+  
 Undo/Redo Functionality: Allows users to easily undo or redo changes while editing.
 Tech Stack
 Frontend: React.js, CSS, HTML
