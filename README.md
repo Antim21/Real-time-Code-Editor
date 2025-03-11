@@ -18,6 +18,7 @@ A web-based real-time collaborative code editor that allows multiple users to wr
 Real-Time Collaboration: Multiple users can edit the same code simultaneously, with changes reflected in real-time across all connected users.
    
 Syntax Highlighting: Supports syntax highlighting for multiple programming languages (e.g., JavaScript, C++) for better readability and editing.  
+
 Multi-User Support: Seamless communication and synchronization between users using WebSockets.
 
 Code Sharing: Users can share code sessions with others using a unique session link.
