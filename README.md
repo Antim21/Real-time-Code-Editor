@@ -30,7 +30,7 @@ Developed as a personal passion project to explore concurrency, WebSockets, and 
 - **Backend:** Node.js, Express.js
 - **Real-Time Layer:** WebSockets (Socket.io)
 - **Database:** MongoDB (session persistence)
-- **Other Tools:** GitHub Actions.
+- **Other Tools:** GitHub Actions. 
 
 ---
 
