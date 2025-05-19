@@ -3,7 +3,7 @@
 
 on: [pull_request_target, issues]
 
-jobs:
+jobs:   
   greeting:
     runs-on: ubuntu-latest
     permissions:
